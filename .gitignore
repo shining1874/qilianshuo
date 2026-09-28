@@ -1,0 +1,10 @@
+# 依赖与本地缓存
+node_modules/
+.DS_Store
+*.log
+
+# 本地数据导出（不入库）
+*.local.json
+
+# 测试脚本（开发用，非应用一部分）
+/smoke-test/
