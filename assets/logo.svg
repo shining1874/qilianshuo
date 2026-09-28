@@ -1,0 +1,27 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="祁连说">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F7F3EA"/>
+      <stop offset="1" stop-color="#EDE6D6"/>
+    </linearGradient>
+    <linearGradient id="m1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2C5364"/>
+      <stop offset="1" stop-color="#203A43"/>
+    </linearGradient>
+    <linearGradient id="m2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4C7A8A"/>
+      <stop offset="1" stop-color="#2C5364"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="22" fill="url(#sky)"/>
+  <!-- back mountain -->
+  <path d="M8 86 L38 46 L58 74 L82 38 L112 86 Z" fill="url(#m2)" opacity="0.85"/>
+  <!-- front mountain with snow cap -->
+  <path d="M14 90 L46 44 L66 78 L92 50 L108 90 Z" fill="url(#m1)"/>
+  <path d="M46 44 L54 56 L42 56 Z" fill="#F7F3EA"/>
+  <path d="M92 50 L99 60 L86 60 Z" fill="#F7F3EA"/>
+  <!-- river -->
+  <path d="M16 96 Q60 88 104 96" stroke="#C9A86A" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- wordmark -->
+  <text x="60" y="112" text-anchor="middle" font-family="'Microsoft YaHei','Noto Sans SC',sans-serif" font-size="13" font-weight="700" fill="#203A43">祁连说</text>
+</svg>
